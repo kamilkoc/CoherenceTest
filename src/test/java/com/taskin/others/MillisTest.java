@@ -16,6 +16,7 @@ public class MillisTest {
     }
 
     private void doSomeHeavyLifting() {
+		int i = 0;
         try {
             Thread.sleep(TimeUnit.SECONDS.toMillis(1));
         } catch (InterruptedException e) {
