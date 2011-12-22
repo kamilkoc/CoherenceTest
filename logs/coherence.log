@@ -6500,3 +6500,40 @@ IpMonitor{AddressListSize=0}
 2011-12-16 13:48:21.406/3789.190 Oracle Coherence GE 3.6.1.0 <Warning> (thread=DistributedCache, member=2): Assigned 129 orphaned primary partitions
 2011-12-16 13:48:21.408/3789.192 Oracle Coherence GE 3.6.1.0 <D4> (thread=DistributedCache, member=2): 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176, 177, 178, 179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 203, 204, 205, 206, 207, 208, 209, 210, 211, 212, 213, 214, 215, 216, 217, 218, 219, 220, 221, 222, 223, 224, 225, 226, 227, 228, 229, 230, 231, 232, 233, 234, 235, 236, 237, 238, 239, 240, 241, 242, 243, 244, 245, 246, 247, 248, 249, 250, 251, 252, 253, 254, 255, 256, 
 2011-12-16 13:48:21.425/3789.209 Oracle Coherence GE 3.6.1.0 <D5> (thread=main, member=2): Repeating PutAllRequest for 10 out of 50 items due to the re-distribution of PartitionSet{218, 219, 229, 231, 241, 243, 247, 252, 253}
+2011-12-22 14:23:34.481/4.479 Oracle Coherence 3.6.1.0 <Info> (thread=main, member=n/a): Loaded operational configuration from "jar:file:/home/taskin/.m2/repository/com/oracle/coherence/3.6.1/coherence-3.6.1.jar!/tangosol-coherence.xml"
+2011-12-22 14:23:34.497/4.495 Oracle Coherence 3.6.1.0 <Info> (thread=main, member=n/a): Loaded operational overrides from "file:/home/taskin/Projects/gitClone/CoherenceTest/target/classes/tangosol-coherence-override-dev.xml"
+2011-12-22 14:23:34.498/4.496 Oracle Coherence 3.6.1.0 <Info> (thread=main, member=n/a): Loaded operational overrides from "file:/home/taskin/Projects/gitClone/CoherenceTest/target/classes/tangosol-coherence-override.xml"
+2011-12-22 14:23:34.503/4.501 Oracle Coherence 3.6.1.0 <D5> (thread=main, member=n/a): Optional configuration override "/custom-mbeans.xml" is not specified
+
+Oracle Coherence Version 3.6.1.0 Build 19636
+ Grid Edition: Development mode
+Copyright (c) 2000, 2010, Oracle and/or its affiliates. All rights reserved.
+
+2011-12-22 14:23:35.028/5.026 Oracle Coherence GE 3.6.1.0 <Info> (thread=main, member=n/a): Loaded cache configuration from "jar:file:/home/taskin/.m2/repository/com/oracle/coherence/3.6.1/coherence-3.6.1.jar!/coherence-cache-config.xml"
+2011-12-22 14:23:37.019/7.017 Oracle Coherence GE 3.6.1.0 <Warning> (thread=main, member=n/a): UnicastUdpSocket failed to set receive buffer size to 714 packets (1023KB); actual size is 12%, 89 packets (127KB). Consult your OS documentation regarding increasing the maximum socket buffer size. Proceeding with the actual value may cause sub-optimal performance.
+2011-12-22 14:23:37.020/7.018 Oracle Coherence GE 3.6.1.0 <Warning> (thread=main, member=n/a): PreferredUnicastUdpSocket failed to set receive buffer size to 1428 packets (1.99MB); actual size is 6%, 89 packets (127KB). Consult your OS documentation regarding increasing the maximum socket buffer size. Proceeding with the actual value may cause sub-optimal performance.
+2011-12-22 14:23:37.021/7.019 Oracle Coherence GE 3.6.1.0 <D4> (thread=main, member=n/a): TCMP bound to /192.168.1.39:8089 using SystemSocketProvider
+2011-12-22 14:23:37.022/7.020 Oracle Coherence GE 3.6.1.0 <Warning> (thread=main, member=n/a): MulticastUdpSocket failed to set receive buffer size to 714 packets (1023KB); actual size is 12%, 89 packets (127KB). Consult your OS documentation regarding increasing the maximum socket buffer size. Proceeding with the actual value may cause sub-optimal performance.
+2011-12-22 14:23:38.421/8.419 Oracle Coherence GE 3.6.1.0 <Info> (thread=Cluster, member=n/a): Created a new cluster "cluster:0xC4DB" with Member(Id=1, Timestamp=2011-12-22 14:23:37.029, Address=192.168.1.39:8089, MachineId=26919, Location=site:local,machine:lenovopc,process:24252, Role=ApacheMavenSurefireBooter, Edition=Grid Edition, Mode=Development, CpuCount=2, SocketCount=1) UID=0xC0A801270000013465BA054569271F99
+2011-12-22 14:23:38.434/8.432 Oracle Coherence GE 3.6.1.0 <Info> (thread=main, member=n/a): Started cluster Name=cluster:0xC4DB
+
+Group{Address=224.3.6.0, Port=36000, TTL=4}
+
+MasterMemberSet
+  (
+  ThisMember=Member(Id=1, Timestamp=2011-12-22 14:23:37.029, Address=192.168.1.39:8089, MachineId=26919, Location=site:local,machine:lenovopc,process:24252, Role=ApacheMavenSurefireBooter)
+  OldestMember=Member(Id=1, Timestamp=2011-12-22 14:23:37.029, Address=192.168.1.39:8089, MachineId=26919, Location=site:local,machine:lenovopc,process:24252, Role=ApacheMavenSurefireBooter)
+  ActualMemberSet=MemberSet(Size=1, BitSetCount=2
+    Member(Id=1, Timestamp=2011-12-22 14:23:37.029, Address=192.168.1.39:8089, MachineId=26919, Location=site:local,machine:lenovopc,process:24252, Role=ApacheMavenSurefireBooter)
+    )
+  RecycleMillis=1200000
+  RecycleSet=MemberSet(Size=0, BitSetCount=0
+    )
+  )
+
+TcpRing{Connections=[]}
+IpMonitor{AddressListSize=0}
+
+2011-12-22 14:23:38.519/8.517 Oracle Coherence GE 3.6.1.0 <D5> (thread=Invocation:Management, member=1): Service Management joined the cluster with senior service member 1
+2011-12-22 14:23:38.860/8.858 Oracle Coherence GE 3.6.1.0 <D5> (thread=DistributedCache, member=1): Service DistributedCache joined the cluster with senior service member 1
+2011-12-22 14:23:39.055/9.054 Oracle Coherence GE 3.6.1.0 <D4> (thread=ShutdownHook, member=1): ShutdownHook: stopping cluster node
